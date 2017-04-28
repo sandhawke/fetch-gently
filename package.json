@@ -1,0 +1,40 @@
+{
+  "name": "fetch-gently",
+  "version": "0.0.1",
+  "description": "Wraps node-fetch to avoid hammering remote hosts or violating x-ratelimit",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap --cov test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandhawke/fetch-gently.git"
+  },
+  "keywords": [
+    "fetch",
+    "request",
+    "http",
+    "https",
+    "xhr",
+    "ratelimit",
+    "polite",
+    "gentle",
+    "nice",
+    "slow",
+    "429"
+  ],
+  "author": "Sandro Hawke (http://hawke.org/sandro)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/sandhawke/fetch-gently/issues"
+  },
+  "homepage": "https://github.com/sandhawke/fetch-gently#readme",
+  "dependencies": {
+    "debug": "^2.6.6",
+    "node-fetch": "^1.6.3"
+  },
+  "devDependencies": {
+    "tap": "^10.3.2",
+    "tape": "^4.6.3"
+  }
+}
